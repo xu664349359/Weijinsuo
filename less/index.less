@@ -1,0 +1,54 @@
+@mainBorder : #ccc;
+@mainColor :#e92322;
+a{
+    text-decoration: none;
+    color: #333;
+
+}
+a:hover,
+a:link,
+a:active{
+    text-decoration: none;
+    // color: #e92322;
+}
+a:hover{
+    color: #e92322;
+}
+i{
+    font-style: normal;
+}
+// 头部部分区域
+
+
+.wjs_header{
+    border-bottom: 1px solid @mainBorder;
+    .item{
+        border-right: 1px solid @mainBorder;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        .phone{
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+    .item:last-child{
+        border-right: none;
+        .register{
+            padding: 3px 12px;
+        }
+        .login{
+            padding:3px 12px; 
+            color: #333;
+        }
+        .login:hover{
+            text-decoration:none;
+            color:@mainColor;
+        }
+    }
+}
+
+//导航部分
+

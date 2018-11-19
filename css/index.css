@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover,
+a:link,
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  color: #e92322;
+}
+i {
+  font-style: normal;
+}
+.wjs_header {
+  border-bottom: 1px solid #cccccc;
+}
+.wjs_header .item {
+  border-right: 1px solid #cccccc;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.wjs_header .item .phone {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.wjs_header .item:last-child {
+  border-right: none;
+}
+.wjs_header .item:last-child .register {
+  padding: 3px 12px;
+}
+.wjs_header .item:last-child .login {
+  padding: 3px 12px;
+  color: #333;
+}
+.wjs_header .item:last-child .login:hover {
+  text-decoration: none;
+  color: #e92322;
+}
